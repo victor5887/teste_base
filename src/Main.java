@@ -11,5 +11,17 @@ public class Main {
         carroVinicius.placa = "KMW3999";
 
         System.out.println(carroVinicius.toString());
+
+        Carro carroVictor = new Carro();
+
+        carroVictor.marca = "Ferrari";
+        carroVictor.modelo = "F10";
+        carroVictor.potencia = 400;
+        carroVictor.placa = "VictorOCara";
+
+        System.out.println(carroVictor.toString());
+
+
     }
+
 }
