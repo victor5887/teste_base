@@ -4,15 +4,12 @@ public class Main {
     public static void main(String[] args) {
 
         Carro carroVinicius = new Carro();
+        Carro carroVictor = new Carro();
 
         carroVinicius.marca = "Volvo";
         carroVinicius.modelo = "xc90";
         carroVinicius.potencia = 200;
         carroVinicius.placa = "KMW3999";
-
-        System.out.println(carroVinicius.toString());
-
-        Carro carroVictor = new Carro();
 
         carroVictor.marca = "Ferrari";
         carroVictor.modelo = "F10";
@@ -20,7 +17,7 @@ public class Main {
         carroVictor.placa = "VictorOCara";
 
         System.out.println(carroVictor.toString());
-
+        System.out.println(carroVinicius.toString());
 
     }
 
