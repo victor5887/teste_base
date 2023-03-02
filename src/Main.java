@@ -16,9 +16,10 @@ public class Main {
         carroVictor.potencia = 400;
         carroVictor.placa = "VictorOCara";
 
-        System.out.println(carroVictor.toString());
+
         System.out.println(carroVinicius.toString());
 
+        System.out.println(carroVictor.toString());
     }
 
 }
