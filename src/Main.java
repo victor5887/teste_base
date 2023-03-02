@@ -6,15 +6,15 @@ public class Main {
         Carro carroVinicius = new Carro();
         Carro carroVictor = new Carro();
 
-        carroVinicius.marca = "Volvo";
-        carroVinicius.modelo = "xc90";
-        carroVinicius.potencia = 200;
-        carroVinicius.placa = "KMW3999";
+        carroVinicius.setMarca("Volvo");
+        carroVinicius.setModelo("xc90");
+        carroVinicius.setPotencia(200);
+        carroVinicius.setPlaca("KMW3999");
 
-        carroVictor.marca = "Ferrari";
-        carroVictor.modelo = "F10";
-        carroVictor.potencia = 400;
-        carroVictor.placa = "VictorOCara";
+        carroVictor.setMarca("Ferrari");
+        carroVictor.setModelo("F10");
+        carroVictor.setPotencia(400);
+        carroVictor.setPlaca("VictorOCara");
 
 
         System.out.println(carroVinicius.toString());
