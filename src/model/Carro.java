@@ -2,10 +2,12 @@ package model;
 
 public class Carro {
 
-    public String modelo;
-    public String marca;
-    public Integer potencia;
-    public String placa;
+    private String modelo;
+    private String marca;
+    private Integer potencia;
+    private String placa;
+
+    private Integer velocidade;
 
 
     public String toString () {
@@ -16,6 +18,15 @@ public class Carro {
 
         return retorno;
     }
+
+
+    public String toString () {
+
+        Integer velocidade =
+
+    }
+
+
 
 
 }
